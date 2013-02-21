@@ -1,0 +1,32 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE struts PUBLIC
+ "-//Apache Software Foundation//DTD Struts Configuration 2.0//EN"
+ "http://struts.apache.org/dtds/struts-2.0.dtd">
+
+<struts>
+	<package name="default_cultureproduce" extends="base" namespace="/cultureproduce">
+				<!-- 文化项目表 -->
+		<action name="IndustryProject" class="com.yun.ui.action.cultureproduce.IndustryProject">
+			<result name="IndustryProjectDetails">/cultureproduce/IndustryProjectDetails.jsp</result>
+			<result name="IndustryProjectInsert">/cultureproduce/IndustryProjectInsert.jsp</result>
+			<result name="IndustryProjectChainToPic" type="chain">
+				<param name="actionName">ProjectpicAdd</param>
+				<param name="namespace">/cultureproduce</param>
+				<param name="method">execute</param>
+			</result>
+			<result name="IndustryProjectEdit">/cultureproduce/IndustryProjectEdit.jsp</result>
+			<result name="IndustryProjectList">/cultureproduce/IndustryProjectList.jsp</result>
+			<result name="IndustryProjectdata">/cultureproduce/IndustryProjectListupdata.jsp</result>
+		</action>
+
+       <!-- 项目图片表Upload -->
+		<action name="Projectpic" class="com.yun.ui.action.cultureproduce.Projectpic">
+			 <result name="ProjectpicEdit" type="redirectAction">IndustryProject?pagetype=gotoupdate&amp;databaseprojectid=${databaseprojectid}</result>
+		</action>
+		<!-- 项目图片表 Insert-->
+		<action name="ProjectpicAdd" class="com.yun.ui.action.cultureproduce.UpLoadPic">
+			
+		</action>
+	</package>
+			
+</struts>

@@ -1,0 +1,179 @@
+@charset "utf-8";
+body {
+	margin: 8px;
+}
+.y_4 {
+	background-image: url(../images/y_4.gif);
+	background-repeat: repeat-x;
+}
+.y_2 {
+	background-image: url(../images/y_2.gif);
+	background-repeat: repeat-x;
+	font-size: 12px;
+	font-weight: bold;
+	color: #003e98;
+}
+.table_1 {
+	padding: 5px;
+	border-right-width: 1px;
+	border-bottom-width: 1px;
+	border-left-width: 1px;
+	border-right-style: solid;
+	border-bottom-style: solid;
+	border-left-style: solid;
+	border-right-color: #cedff7;
+	border-bottom-color: #cedff7;
+	border-left-color: #cedff7;
+}
+.table_2 {
+	border-bottom-width: 1px;
+	border-left-width: 1px;
+	border-bottom-style: solid;
+	border-left-style: solid;
+	border-bottom-color: #b0d8f2;
+	border-left-color: #b0d8f2;
+	background-color: #f0f7fc;
+}
+.table_2 td {
+	border-top-width: 1px;
+	border-right-width: 1px;
+	border-top-style: solid;
+	border-right-style: solid;
+	border-top-color: #b0d8f2;
+	border-right-color: #b0d8f2;
+	padding: 5px;
+	text-align: center;
+	font-size: 14px;
+}
+.font_1 {
+	font-size: 14px;
+	font-weight: bold;
+	color: #008ce8;
+}
+.k_bg a {
+	color: #003E98;
+	text-decoration: none;
+}
+.k_bg a:hover {
+	color: #FF6600;
+	text-decoration: none;
+}
+.table_3 a {
+	color: #003E98;
+	text-decoration: none;
+}
+.table_3 a:hover {
+	color: #FF6600;
+	text-decoration: none;
+}
+
+
+.table_3 {
+	border-left-width: 1px;
+	border-left-style: solid;
+	border-left-color: #b0d8f2;
+	font-size: 14px;
+	font-weight: bold;
+	color: #003e98;
+	background-color: #daedf9;
+}
+.table_3 td {
+	border-top-width: 1px;
+	border-right-width: 1px;
+	border-top-style: solid;
+	border-right-style: solid;
+	border-top-color: #b0d8f2;
+	border-right-color: #b0d8f2;
+	padding: 5px;
+	letter-spacing: 1px;
+	text-align: center;
+}
+.y_2 a {
+	color: #003E98;
+	text-decoration: none;
+}
+
+   .style3
+            {
+                width: 50px;
+                text-align:right;
+                color:black;
+                font-weight:bold;
+                font-family:微软雅黑;
+            }
+            
+/* CSS Document */
+html, body, ul, li, h1, h2, h3, h4, h5, h6, fieldset, legend {padding:0; margin:0;}
+body {font:12px/normal Verdana, Arial, Helvetica, sans-serif;}
+ul,li {list-style-type:none; text-transform:capitalize;}
+.clear {clear:both; *display:inline;/*IE only*/}
+
+/*menu*/
+#nav {margin:0 auto ; width:100%; display:block;}
+#nav .jquery {margin-right:1px;padding:0 2em;}
+#nav .mainlevel {background: #98C7F8 url(../img/btnhover2.jpg); float:right; width:100px; /*IE6 only*/}
+#nav .mainlevel a {color:#000; text-decoration:none; text-align:center; line-height:30px;
+                    display:block; padding:0 1px; width:100px; font-family:微软雅黑; font-weight:bold;}
+#nav .mainlevel font {color:#000; text-decoration:none; text-align:center; line-height:30px; cursor:default;
+                    display:block; padding:0 1px; width:100px; font-family:微软雅黑; font-weight:bold;}
+#nav .mainlevel a:hover {color:#FFF; text-decoration:none; background: #98C7F8 url(../img/btnhover.jpg);}
+#nav .mainlevel ul {display:none; position:absolute;}
+#nav .mainlevel li {font-size:10px; background:#e7f3fe; width:100px; 
+                    border-top:1px solid #FFF;}/*浮动效果*/
+                    
+
+
+.log {text-align:center; color:blue; line-height:30px; text-transform:capitalize; margin:50px auto;}
+
+.time
+{
+	font-size:10px;
+    font-family:黑体;
+	color:#333333;
+	}
+	    
+.ahref
+{ 
+  text-decoration: none; 
+  font-family: 微软雅黑; 
+  font-size: 12.5px; 
+  font-weight: bolder; 
+  color:#214598;
+}
+
+            
+            
+
+	    
+            
+            .topahref
+{     
+	text-decoration: none; 
+	font-family: 幼圆; 
+	font-size: 12px; 
+	}
+            .style8
+            {
+                width: 53px;
+            }
+            .style15
+            {
+                width: 35px;
+            }
+            .style16
+            {
+                width: 70px;
+            }
+            .style18
+            {
+                width: 117px;
+            }
+            .style20
+            {
+                width: 69px;
+            }
+            .style21
+            {
+                width: 65px;
+            }
+           

@@ -1,0 +1,127 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE struts PUBLIC  
+ "-//Apache Software Foundation//DTD Struts Configuration 2.0//EN"  
+ "http://struts.apache.org/dtds/struts-2.0.dtd">
+ <struts>
+ <package name="report" extends="base" namespace="/report">
+ 
+ 
+ 
+ <!-- 企业报表 action -->
+ <action name="enterprise" class="com.yun.ui.action.report.EnterpriseReport" >
+	<result name="AnnualSummary">
+		/report/EnterpriseStatistics.jsp
+	</result>
+	<result name="newlyenterprise">
+		/report/EnterpriseNewly.jsp
+	</result>
+	<result name="EnterpriseByType">
+		/report/EnterpriseByType.jsp
+	</result>
+	<result name="EnterpriseByRegion">
+		/report/EnterpriseByRegion.jsp
+	</result>
+ </action>
+<!--项目报表 -->
+ <action name="project" class="com.yun.ui.action.report.ProjectReport">
+ 		<result name="statistics">
+ 			/report/ProjectStatistics.jsp
+ 		</result>
+		<result name="projectnewly">
+			/report/ProjectNewLy.jsp
+		</result>
+		<result name="projectcompleted">
+			/report/ProjectCompleted.jsp
+		</result>
+		<result name="totalinvest">
+			/report/ProjectTotalInvest.jsp
+		</result>
+		<result name="bytype">
+			/report/ProjectByType.jsp
+		</result>
+		<result name="byregion">
+			/report/ProjectByRegion.jsp
+		</result>
+ </action>
+<!--人才报表　 -->
+ <action name="talent" class="com.yun.ui.action.report.TalentReport">
+ 	<result name="talentnewly">/report/TalentNewLy.jsp</result>
+ 	<result name="talentbytype">/report/TalentByType.jsp</result>
+ 	<result name="talentbyage">/report/TalentByAge.jsp</result>
+ 	<result name="talentbyeducation">/report/TalentByEducation.jsp</result>
+ 	<result name="talentbypost">/report/TalentByPost.jsp</result>
+ </action>
+<!--企业Excel -->
+ <action name="Edownload" class="com.yun.ui.action.report.EnterpriseReport">   
+  
+    <!-- 初始文件名 -->   
+  
+    <param name="fileName">企业报表</param>   
+  
+    <result name="success" type="stream">   
+  
+        <param name="contentType">application/vnd.ms-excel</param>   
+  
+        <param name="inputName">inputStream</param>   
+  
+        <!-- 使用经过转码的文件名作为下载文件名，downloadFileName属性   
+  
+      	  对应action类中的方法 getDownloadFileName() -->   
+  
+        <param name="contentDisposition">attachment;filename="${downloadFileName}.xls"</param>   
+  
+        <param name="bufferSize">4096</param>   
+  
+    </result>   
+  
+</action>    
+
+<!--项目Excel-->
+<action name="Pdownload" class="com.yun.ui.action.report.ProjectReport">
+  <!-- 初始文件名 -->   
+  
+    <param name="fileName">项目报表</param>   
+  
+    <result name="success" type="stream">   
+  
+        <param name="contentType">application/vnd.ms-excel</param>   
+  
+        <param name="inputName">inputStream</param>   
+  
+        <!-- 使用经过转码的文件名作为下载文件名，downloadFileName属性   
+  
+      	  对应action类中的方法 getDownloadFileName() -->   
+  
+        <param name="contentDisposition">attachment;filename="${downloadFileName}.xls"</param>   
+  
+        <param name="bufferSize">4096</param>   
+  
+    </result>   
+
+</action>
+
+
+<!--人才Excel-->
+<action name="Tdownload" class="com.yun.ui.action.report.TalentReport">
+ <!-- 初始文件名 -->   
+  
+    <param name="fileName">人才报表</param>   
+  
+    <result name="success" type="stream">   
+  
+        <param name="contentType">application/vnd.ms-excel</param>   
+  
+        <param name="inputName">inputStream</param>   
+  
+        <!-- 使用经过转码的文件名作为下载文件名，downloadFileName属性   
+  
+      	  对应action类中的方法 getDownloadFileName() -->   
+  
+        <param name="contentDisposition">attachment;filename="${downloadFileName}.xls"</param>   
+  
+        <param name="bufferSize">4096</param>   
+  
+    </result>   
+</action>
+ </package>
+ </struts>

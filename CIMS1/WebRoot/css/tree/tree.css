@@ -1,0 +1,20 @@
+.tree {
+	font-family: Verdana, Geneva, Arial, Helvetica, sans-serif;
+	font-size: 15px;
+	padding: 0px;
+	margin:0px;
+	white-space: nowrap;
+	width:10%; 
+	height:99%;
+position:absolute;
+border-right: 1px solid #6697CD;
+top:0px;
+left:0px;
+padding-top: 5px;
+padding-left: 5px;
+}
+.tree img {
+	border: 0px;
+	height: 19px;
+	vertical-align: text-bottom;
+}

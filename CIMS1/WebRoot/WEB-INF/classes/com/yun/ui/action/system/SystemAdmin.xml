@@ -1,0 +1,685 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ArrayOfTableItemSaveInfo xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <TableItemSaveInfo>
+    <TableName>t_system_admin</TableName>
+    <TableComment>系统人员表</TableComment>
+    <ItemID>1</ItemID>
+    <ItemName>DatabaseAdminID</ItemName>
+    <ItemType>int</ItemType>
+    <ItemLength>4</ItemLength>
+    <ItemPrec>10</ItemPrec>
+    <ItemScale>0</ItemScale>
+    <ItemShow>true</ItemShow>
+    <ItemIsSelect>false</ItemIsSelect>
+    <ItemSelect>={0}</ItemSelect>
+    <ItemSelectAndOr>AND</ItemSelectAndOr>
+    <ItemOrderBy>DESC</ItemOrderBy>
+    <ItemOrderByOrder>1</ItemOrderByOrder>
+    <ItemStyle>text</ItemStyle>
+    <ItemValidatorDataType>整数</ItemValidatorDataType>
+    <ItemIdentity>true</ItemIdentity>
+    <ItemPrimary>true</ItemPrimary>
+    <ItemForeignKey>false</ItemForeignKey>
+    <ItemNull>false</ItemNull>
+    <ItemComment>人员ID</ItemComment>
+    <ItemDefault />
+    <TableSelect />
+    <TableSelectComment />
+    <TableSelectValue />
+    <TableSelectText />
+    <TableSelectRemovePrefix />
+    <TableSelectValueRemovePrefix />
+    <TableSelectTextRemovePrefix />
+  </TableItemSaveInfo>
+  <TableItemSaveInfo>
+    <TableName>t_system_admin</TableName>
+    <TableComment>系统人员表</TableComment>
+    <ItemID>2</ItemID>
+    <ItemName>AdminID</ItemName>
+    <ItemType>int</ItemType>
+    <ItemLength>4</ItemLength>
+    <ItemPrec>10</ItemPrec>
+    <ItemScale>0</ItemScale>
+    <ItemShow>true</ItemShow>
+    <ItemIsSelect>false</ItemIsSelect>
+    <ItemSelect>={0}</ItemSelect>
+    <ItemSelectAndOr>AND</ItemSelectAndOr>
+    <ItemOrderBy>无</ItemOrderBy>
+    <ItemOrderByOrder>1</ItemOrderByOrder>
+    <ItemStyle>text</ItemStyle>
+    <ItemValidatorDataType>整数</ItemValidatorDataType>
+    <ItemIdentity>false</ItemIdentity>
+    <ItemPrimary>false</ItemPrimary>
+    <ItemForeignKey>false</ItemForeignKey>
+    <ItemNull>false</ItemNull>
+    <ItemComment>人员编号</ItemComment>
+    <ItemDefault />
+    <TableSelect />
+    <TableSelectComment />
+    <TableSelectValue />
+    <TableSelectText />
+    <TableSelectRemovePrefix />
+    <TableSelectValueRemovePrefix />
+    <TableSelectTextRemovePrefix />
+  </TableItemSaveInfo>
+  <TableItemSaveInfo>
+    <TableName>t_system_admin</TableName>
+    <TableComment>系统人员表</TableComment>
+    <ItemID>3</ItemID>
+    <ItemName>AdminName</ItemName>
+    <ItemType>varchar</ItemType>
+    <ItemLength>50</ItemLength>
+    <ItemPrec />
+    <ItemScale />
+    <ItemShow>true</ItemShow>
+    <ItemIsSelect>false</ItemIsSelect>
+    <ItemSelect>={0}</ItemSelect>
+    <ItemSelectAndOr>AND</ItemSelectAndOr>
+    <ItemOrderBy>无</ItemOrderBy>
+    <ItemOrderByOrder>1</ItemOrderByOrder>
+    <ItemStyle>text</ItemStyle>
+    <ItemValidatorDataType>文本</ItemValidatorDataType>
+    <ItemIdentity>false</ItemIdentity>
+    <ItemPrimary>false</ItemPrimary>
+    <ItemForeignKey>false</ItemForeignKey>
+    <ItemNull>true</ItemNull>
+    <ItemComment>帐号</ItemComment>
+    <ItemDefault />
+    <TableSelect />
+    <TableSelectComment />
+    <TableSelectValue />
+    <TableSelectText />
+    <TableSelectRemovePrefix />
+    <TableSelectValueRemovePrefix />
+    <TableSelectTextRemovePrefix />
+  </TableItemSaveInfo>
+  <TableItemSaveInfo>
+    <TableName>t_system_admin</TableName>
+    <TableComment>系统人员表</TableComment>
+    <ItemID>4</ItemID>
+    <ItemName>AdminPassWord</ItemName>
+    <ItemType>varchar</ItemType>
+    <ItemLength>50</ItemLength>
+    <ItemPrec />
+    <ItemScale />
+    <ItemShow>true</ItemShow>
+    <ItemIsSelect>false</ItemIsSelect>
+    <ItemSelect>={0}</ItemSelect>
+    <ItemSelectAndOr>AND</ItemSelectAndOr>
+    <ItemOrderBy>无</ItemOrderBy>
+    <ItemOrderByOrder>1</ItemOrderByOrder>
+    <ItemStyle>text</ItemStyle>
+    <ItemValidatorDataType>密码</ItemValidatorDataType>
+    <ItemIdentity>false</ItemIdentity>
+    <ItemPrimary>false</ItemPrimary>
+    <ItemForeignKey>false</ItemForeignKey>
+    <ItemNull>true</ItemNull>
+    <ItemComment>密码</ItemComment>
+    <ItemDefault />
+    <TableSelect />
+    <TableSelectComment />
+    <TableSelectValue />
+    <TableSelectText />
+    <TableSelectRemovePrefix />
+    <TableSelectValueRemovePrefix />
+    <TableSelectTextRemovePrefix />
+  </TableItemSaveInfo>
+  <TableItemSaveInfo>
+    <TableName>t_system_admin</TableName>
+    <TableComment>系统人员表</TableComment>
+    <ItemID>5</ItemID>
+    <ItemName>Sex</ItemName>
+    <ItemType>int</ItemType>
+    <ItemLength>4</ItemLength>
+    <ItemPrec>10</ItemPrec>
+    <ItemScale>0</ItemScale>
+    <ItemShow>true</ItemShow>
+    <ItemIsSelect>false</ItemIsSelect>
+    <ItemSelect>={0}</ItemSelect>
+    <ItemSelectAndOr>AND</ItemSelectAndOr>
+    <ItemOrderBy>无</ItemOrderBy>
+    <ItemOrderByOrder>1</ItemOrderByOrder>
+    <ItemStyle>select</ItemStyle>
+    <ItemValidatorDataType>整数</ItemValidatorDataType>
+    <ItemIdentity>false</ItemIdentity>
+    <ItemPrimary>false</ItemPrimary>
+    <ItemForeignKey>false</ItemForeignKey>
+    <ItemNull>true</ItemNull>
+    <ItemComment>性别：1-男、2-女</ItemComment>
+    <ItemDefault />
+    <TableSelect />
+    <TableSelectComment />
+    <TableSelectValue />
+    <TableSelectText />
+    <TableSelectRemovePrefix />
+    <TableSelectValueRemovePrefix />
+    <TableSelectTextRemovePrefix />
+  </TableItemSaveInfo>
+  <TableItemSaveInfo>
+    <TableName>t_system_admin</TableName>
+    <TableComment>系统人员表</TableComment>
+    <ItemID>6</ItemID>
+    <ItemName>TrueName</ItemName>
+    <ItemType>varchar</ItemType>
+    <ItemLength>50</ItemLength>
+    <ItemPrec />
+    <ItemScale />
+    <ItemShow>true</ItemShow>
+    <ItemIsSelect>false</ItemIsSelect>
+    <ItemSelect>={0}</ItemSelect>
+    <ItemSelectAndOr>AND</ItemSelectAndOr>
+    <ItemOrderBy>无</ItemOrderBy>
+    <ItemOrderByOrder>1</ItemOrderByOrder>
+    <ItemStyle>text</ItemStyle>
+    <ItemValidatorDataType>文本</ItemValidatorDataType>
+    <ItemIdentity>false</ItemIdentity>
+    <ItemPrimary>false</ItemPrimary>
+    <ItemForeignKey>false</ItemForeignKey>
+    <ItemNull>true</ItemNull>
+    <ItemComment>姓名</ItemComment>
+    <ItemDefault />
+    <TableSelect />
+    <TableSelectComment />
+    <TableSelectValue />
+    <TableSelectText />
+    <TableSelectRemovePrefix />
+    <TableSelectValueRemovePrefix />
+    <TableSelectTextRemovePrefix />
+  </TableItemSaveInfo>
+  <TableItemSaveInfo>
+    <TableName>t_system_admin</TableName>
+    <TableComment>系统人员表</TableComment>
+    <ItemID>7</ItemID>
+    <ItemName>WorkNO</ItemName>
+    <ItemType>varchar</ItemType>
+    <ItemLength>50</ItemLength>
+    <ItemPrec />
+    <ItemScale />
+    <ItemShow>true</ItemShow>
+    <ItemIsSelect>false</ItemIsSelect>
+    <ItemSelect>={0}</ItemSelect>
+    <ItemSelectAndOr>AND</ItemSelectAndOr>
+    <ItemOrderBy>无</ItemOrderBy>
+    <ItemOrderByOrder>1</ItemOrderByOrder>
+    <ItemStyle>text</ItemStyle>
+    <ItemValidatorDataType>文本</ItemValidatorDataType>
+    <ItemIdentity>false</ItemIdentity>
+    <ItemPrimary>false</ItemPrimary>
+    <ItemForeignKey>false</ItemForeignKey>
+    <ItemNull>true</ItemNull>
+    <ItemComment>工号</ItemComment>
+    <ItemDefault />
+    <TableSelect />
+    <TableSelectComment />
+    <TableSelectValue />
+    <TableSelectText />
+    <TableSelectRemovePrefix />
+    <TableSelectValueRemovePrefix />
+    <TableSelectTextRemovePrefix />
+  </TableItemSaveInfo>
+  <TableItemSaveInfo>
+    <TableName>t_system_admin</TableName>
+    <TableComment>系统人员表</TableComment>
+    <ItemID>8</ItemID>
+    <ItemName>Email</ItemName>
+    <ItemType>varchar</ItemType>
+    <ItemLength>50</ItemLength>
+    <ItemPrec />
+    <ItemScale />
+    <ItemShow>true</ItemShow>
+    <ItemIsSelect>false</ItemIsSelect>
+    <ItemSelect>={0}</ItemSelect>
+    <ItemSelectAndOr>AND</ItemSelectAndOr>
+    <ItemOrderBy>无</ItemOrderBy>
+    <ItemOrderByOrder>1</ItemOrderByOrder>
+    <ItemStyle>text</ItemStyle>
+    <ItemValidatorDataType>Email</ItemValidatorDataType>
+    <ItemIdentity>false</ItemIdentity>
+    <ItemPrimary>false</ItemPrimary>
+    <ItemForeignKey>false</ItemForeignKey>
+    <ItemNull>true</ItemNull>
+    <ItemComment>联系EMAIL</ItemComment>
+    <ItemDefault />
+    <TableSelect />
+    <TableSelectComment />
+    <TableSelectValue />
+    <TableSelectText />
+    <TableSelectRemovePrefix />
+    <TableSelectValueRemovePrefix />
+    <TableSelectTextRemovePrefix />
+  </TableItemSaveInfo>
+  <TableItemSaveInfo>
+    <TableName>t_system_admin</TableName>
+    <TableComment>系统人员表</TableComment>
+    <ItemID>9</ItemID>
+    <ItemName>MovePhone</ItemName>
+    <ItemType>varchar</ItemType>
+    <ItemLength>50</ItemLength>
+    <ItemPrec />
+    <ItemScale />
+    <ItemShow>true</ItemShow>
+    <ItemIsSelect>false</ItemIsSelect>
+    <ItemSelect>={0}</ItemSelect>
+    <ItemSelectAndOr>AND</ItemSelectAndOr>
+    <ItemOrderBy>无</ItemOrderBy>
+    <ItemOrderByOrder>1</ItemOrderByOrder>
+    <ItemStyle>text</ItemStyle>
+    <ItemValidatorDataType>电话</ItemValidatorDataType>
+    <ItemIdentity>false</ItemIdentity>
+    <ItemPrimary>false</ItemPrimary>
+    <ItemForeignKey>false</ItemForeignKey>
+    <ItemNull>true</ItemNull>
+    <ItemComment>移动电话</ItemComment>
+    <ItemDefault />
+    <TableSelect />
+    <TableSelectComment />
+    <TableSelectValue />
+    <TableSelectText />
+    <TableSelectRemovePrefix />
+    <TableSelectValueRemovePrefix />
+    <TableSelectTextRemovePrefix />
+  </TableItemSaveInfo>
+  <TableItemSaveInfo>
+    <TableName>t_system_admin</TableName>
+    <TableComment>系统人员表</TableComment>
+    <ItemID>10</ItemID>
+    <ItemName>Phone</ItemName>
+    <ItemType>varchar</ItemType>
+    <ItemLength>50</ItemLength>
+    <ItemPrec />
+    <ItemScale />
+    <ItemShow>true</ItemShow>
+    <ItemIsSelect>false</ItemIsSelect>
+    <ItemSelect>={0}</ItemSelect>
+    <ItemSelectAndOr>AND</ItemSelectAndOr>
+    <ItemOrderBy>无</ItemOrderBy>
+    <ItemOrderByOrder>1</ItemOrderByOrder>
+    <ItemStyle>text</ItemStyle>
+    <ItemValidatorDataType>电话</ItemValidatorDataType>
+    <ItemIdentity>false</ItemIdentity>
+    <ItemPrimary>false</ItemPrimary>
+    <ItemForeignKey>false</ItemForeignKey>
+    <ItemNull>true</ItemNull>
+    <ItemComment>电话</ItemComment>
+    <ItemDefault />
+    <TableSelect />
+    <TableSelectComment />
+    <TableSelectValue />
+    <TableSelectText />
+    <TableSelectRemovePrefix />
+    <TableSelectValueRemovePrefix />
+    <TableSelectTextRemovePrefix />
+  </TableItemSaveInfo>
+  <TableItemSaveInfo>
+    <TableName>t_system_admin</TableName>
+    <TableComment>系统人员表</TableComment>
+    <ItemID>11</ItemID>
+    <ItemName>MSN</ItemName>
+    <ItemType>varchar</ItemType>
+    <ItemLength>50</ItemLength>
+    <ItemPrec />
+    <ItemScale />
+    <ItemShow>true</ItemShow>
+    <ItemIsSelect>false</ItemIsSelect>
+    <ItemSelect>={0}</ItemSelect>
+    <ItemSelectAndOr>AND</ItemSelectAndOr>
+    <ItemOrderBy>无</ItemOrderBy>
+    <ItemOrderByOrder>1</ItemOrderByOrder>
+    <ItemStyle>text</ItemStyle>
+    <ItemValidatorDataType>文本</ItemValidatorDataType>
+    <ItemIdentity>false</ItemIdentity>
+    <ItemPrimary>false</ItemPrimary>
+    <ItemForeignKey>false</ItemForeignKey>
+    <ItemNull>true</ItemNull>
+    <ItemComment>MSN</ItemComment>
+    <ItemDefault />
+    <TableSelect />
+    <TableSelectComment />
+    <TableSelectValue />
+    <TableSelectText />
+    <TableSelectRemovePrefix />
+    <TableSelectValueRemovePrefix />
+    <TableSelectTextRemovePrefix />
+  </TableItemSaveInfo>
+  <TableItemSaveInfo>
+    <TableName>t_system_admin</TableName>
+    <TableComment>系统人员表</TableComment>
+    <ItemID>12</ItemID>
+    <ItemName>RolesID</ItemName>
+    <ItemType>int</ItemType>
+    <ItemLength>4</ItemLength>
+    <ItemPrec>10</ItemPrec>
+    <ItemScale>0</ItemScale>
+    <ItemShow>true</ItemShow>
+    <ItemIsSelect>false</ItemIsSelect>
+    <ItemSelect>={0}</ItemSelect>
+    <ItemSelectAndOr>AND</ItemSelectAndOr>
+    <ItemOrderBy>无</ItemOrderBy>
+    <ItemOrderByOrder>1</ItemOrderByOrder>
+    <ItemStyle>select</ItemStyle>
+    <ItemValidatorDataType>整数</ItemValidatorDataType>
+    <ItemIdentity>false</ItemIdentity>
+    <ItemPrimary>false</ItemPrimary>
+    <ItemForeignKey>false</ItemForeignKey>
+    <ItemNull>false</ItemNull>
+    <ItemComment>角色编号</ItemComment>
+    <ItemDefault />
+    <TableSelect>t_system_roles</TableSelect>
+    <TableSelectComment>角色表</TableSelectComment>
+    <TableSelectValue>RolesID</TableSelectValue>
+    <TableSelectText>RolesName</TableSelectText>
+    <TableSelectRemovePrefix>SystemRoles</TableSelectRemovePrefix>
+    <TableSelectValueRemovePrefix>Rolesid</TableSelectValueRemovePrefix>
+    <TableSelectTextRemovePrefix>Rolesname</TableSelectTextRemovePrefix>
+  </TableItemSaveInfo>
+  <TableItemSaveInfo>
+    <TableName>t_system_admin</TableName>
+    <TableComment>系统人员表</TableComment>
+    <ItemID>13</ItemID>
+    <ItemName>SectorID</ItemName>
+    <ItemType>int</ItemType>
+    <ItemLength>4</ItemLength>
+    <ItemPrec>10</ItemPrec>
+    <ItemScale>0</ItemScale>
+    <ItemShow>true</ItemShow>
+    <ItemIsSelect>false</ItemIsSelect>
+    <ItemSelect>={0}</ItemSelect>
+    <ItemSelectAndOr>AND</ItemSelectAndOr>
+    <ItemOrderBy>无</ItemOrderBy>
+    <ItemOrderByOrder>1</ItemOrderByOrder>
+    <ItemStyle>select</ItemStyle>
+    <ItemValidatorDataType>整数</ItemValidatorDataType>
+    <ItemIdentity>false</ItemIdentity>
+    <ItemPrimary>false</ItemPrimary>
+    <ItemForeignKey>false</ItemForeignKey>
+    <ItemNull>false</ItemNull>
+    <ItemComment>部门编号</ItemComment>
+    <ItemDefault />
+    <TableSelect>t_system_sector</TableSelect>
+    <TableSelectComment>部门表</TableSelectComment>
+    <TableSelectValue>SectorID</TableSelectValue>
+    <TableSelectText>SectorName</TableSelectText>
+    <TableSelectRemovePrefix>SystemSector</TableSelectRemovePrefix>
+    <TableSelectValueRemovePrefix>Sectorid</TableSelectValueRemovePrefix>
+    <TableSelectTextRemovePrefix>Sectorname</TableSelectTextRemovePrefix>
+  </TableItemSaveInfo>
+  <TableItemSaveInfo>
+    <TableName>t_system_admin</TableName>
+    <TableComment>系统人员表</TableComment>
+    <ItemID>14</ItemID>
+    <ItemName>Description</ItemName>
+    <ItemType>varchar</ItemType>
+    <ItemLength>500</ItemLength>
+    <ItemPrec />
+    <ItemScale />
+    <ItemShow>true</ItemShow>
+    <ItemIsSelect>false</ItemIsSelect>
+    <ItemSelect>={0}</ItemSelect>
+    <ItemSelectAndOr>AND</ItemSelectAndOr>
+    <ItemOrderBy>无</ItemOrderBy>
+    <ItemOrderByOrder>1</ItemOrderByOrder>
+    <ItemStyle>text</ItemStyle>
+    <ItemValidatorDataType>文本</ItemValidatorDataType>
+    <ItemIdentity>false</ItemIdentity>
+    <ItemPrimary>false</ItemPrimary>
+    <ItemForeignKey>false</ItemForeignKey>
+    <ItemNull>true</ItemNull>
+    <ItemComment>人员描述</ItemComment>
+    <ItemDefault />
+    <TableSelect />
+    <TableSelectComment />
+    <TableSelectValue />
+    <TableSelectText />
+    <TableSelectRemovePrefix />
+    <TableSelectValueRemovePrefix />
+    <TableSelectTextRemovePrefix />
+  </TableItemSaveInfo>
+  <TableItemSaveInfo>
+    <TableName>t_system_admin</TableName>
+    <TableComment>系统人员表</TableComment>
+    <ItemID>15</ItemID>
+    <ItemName>Address</ItemName>
+    <ItemType>varchar</ItemType>
+    <ItemLength>50</ItemLength>
+    <ItemPrec />
+    <ItemScale />
+    <ItemShow>true</ItemShow>
+    <ItemIsSelect>false</ItemIsSelect>
+    <ItemSelect>={0}</ItemSelect>
+    <ItemSelectAndOr>AND</ItemSelectAndOr>
+    <ItemOrderBy>无</ItemOrderBy>
+    <ItemOrderByOrder>1</ItemOrderByOrder>
+    <ItemStyle>text</ItemStyle>
+    <ItemValidatorDataType>文本</ItemValidatorDataType>
+    <ItemIdentity>false</ItemIdentity>
+    <ItemPrimary>false</ItemPrimary>
+    <ItemForeignKey>false</ItemForeignKey>
+    <ItemNull>true</ItemNull>
+    <ItemComment>通讯地址</ItemComment>
+    <ItemDefault />
+    <TableSelect />
+    <TableSelectComment />
+    <TableSelectValue />
+    <TableSelectText />
+    <TableSelectRemovePrefix />
+    <TableSelectValueRemovePrefix />
+    <TableSelectTextRemovePrefix />
+  </TableItemSaveInfo>
+  <TableItemSaveInfo>
+    <TableName>t_system_admin</TableName>
+    <TableComment>系统人员表</TableComment>
+    <ItemID>16</ItemID>
+    <ItemName>Limit_Ip</ItemName>
+    <ItemType>varchar</ItemType>
+    <ItemLength>50</ItemLength>
+    <ItemPrec />
+    <ItemScale />
+    <ItemShow>true</ItemShow>
+    <ItemIsSelect>false</ItemIsSelect>
+    <ItemSelect>={0}</ItemSelect>
+    <ItemSelectAndOr>AND</ItemSelectAndOr>
+    <ItemOrderBy>无</ItemOrderBy>
+    <ItemOrderByOrder>1</ItemOrderByOrder>
+    <ItemStyle>text</ItemStyle>
+    <ItemValidatorDataType>文本</ItemValidatorDataType>
+    <ItemIdentity>false</ItemIdentity>
+    <ItemPrimary>false</ItemPrimary>
+    <ItemForeignKey>false</ItemForeignKey>
+    <ItemNull>true</ItemNull>
+    <ItemComment>限定IP</ItemComment>
+    <ItemDefault />
+    <TableSelect />
+    <TableSelectComment />
+    <TableSelectValue />
+    <TableSelectText />
+    <TableSelectRemovePrefix />
+    <TableSelectValueRemovePrefix />
+    <TableSelectTextRemovePrefix />
+  </TableItemSaveInfo>
+  <TableItemSaveInfo>
+    <TableName>t_system_admin</TableName>
+    <TableComment>系统人员表</TableComment>
+    <ItemID>17</ItemID>
+    <ItemName>Last_LoginTime</ItemName>
+    <ItemType>datetime</ItemType>
+    <ItemLength>8</ItemLength>
+    <ItemPrec />
+    <ItemScale />
+    <ItemShow>true</ItemShow>
+    <ItemIsSelect>false</ItemIsSelect>
+    <ItemSelect>between{0}and{1}</ItemSelect>
+    <ItemSelectAndOr>AND</ItemSelectAndOr>
+    <ItemOrderBy>无</ItemOrderBy>
+    <ItemOrderByOrder>1</ItemOrderByOrder>
+    <ItemStyle>text</ItemStyle>
+    <ItemValidatorDataType>日期</ItemValidatorDataType>
+    <ItemIdentity>false</ItemIdentity>
+    <ItemPrimary>false</ItemPrimary>
+    <ItemForeignKey>false</ItemForeignKey>
+    <ItemNull>true</ItemNull>
+    <ItemComment>最后登录时间</ItemComment>
+    <ItemDefault />
+    <TableSelect />
+    <TableSelectComment />
+    <TableSelectValue />
+    <TableSelectText />
+    <TableSelectRemovePrefix />
+    <TableSelectValueRemovePrefix />
+    <TableSelectTextRemovePrefix />
+  </TableItemSaveInfo>
+  <TableItemSaveInfo>
+    <TableName>t_system_admin</TableName>
+    <TableComment>系统人员表</TableComment>
+    <ItemID>18</ItemID>
+    <ItemName>Last_LoginIp</ItemName>
+    <ItemType>varchar</ItemType>
+    <ItemLength>50</ItemLength>
+    <ItemPrec />
+    <ItemScale />
+    <ItemShow>true</ItemShow>
+    <ItemIsSelect>false</ItemIsSelect>
+    <ItemSelect>={0}</ItemSelect>
+    <ItemSelectAndOr>AND</ItemSelectAndOr>
+    <ItemOrderBy>无</ItemOrderBy>
+    <ItemOrderByOrder>1</ItemOrderByOrder>
+    <ItemStyle>text</ItemStyle>
+    <ItemValidatorDataType>文本</ItemValidatorDataType>
+    <ItemIdentity>false</ItemIdentity>
+    <ItemPrimary>false</ItemPrimary>
+    <ItemForeignKey>false</ItemForeignKey>
+    <ItemNull>true</ItemNull>
+    <ItemComment>最后登录IP</ItemComment>
+    <ItemDefault />
+    <TableSelect />
+    <TableSelectComment />
+    <TableSelectValue />
+    <TableSelectText />
+    <TableSelectRemovePrefix />
+    <TableSelectValueRemovePrefix />
+    <TableSelectTextRemovePrefix />
+  </TableItemSaveInfo>
+  <TableItemSaveInfo>
+    <TableName>t_system_admin</TableName>
+    <TableComment>系统人员表</TableComment>
+    <ItemID>19</ItemID>
+    <ItemName>Create_Time</ItemName>
+    <ItemType>datetime</ItemType>
+    <ItemLength>8</ItemLength>
+    <ItemPrec />
+    <ItemScale />
+    <ItemShow>true</ItemShow>
+    <ItemIsSelect>false</ItemIsSelect>
+    <ItemSelect>between{0}and{1}</ItemSelect>
+    <ItemSelectAndOr>AND</ItemSelectAndOr>
+    <ItemOrderBy>无</ItemOrderBy>
+    <ItemOrderByOrder>1</ItemOrderByOrder>
+    <ItemStyle>text</ItemStyle>
+    <ItemValidatorDataType>日期</ItemValidatorDataType>
+    <ItemIdentity>false</ItemIdentity>
+    <ItemPrimary>false</ItemPrimary>
+    <ItemForeignKey>false</ItemForeignKey>
+    <ItemNull>true</ItemNull>
+    <ItemComment>创建时间</ItemComment>
+    <ItemDefault />
+    <TableSelect />
+    <TableSelectComment />
+    <TableSelectValue />
+    <TableSelectText />
+    <TableSelectRemovePrefix />
+    <TableSelectValueRemovePrefix />
+    <TableSelectTextRemovePrefix />
+  </TableItemSaveInfo>
+  <TableItemSaveInfo>
+    <TableName>t_system_admin</TableName>
+    <TableComment>系统人员表</TableComment>
+    <ItemID>20</ItemID>
+    <ItemName>Last_ModifyTime</ItemName>
+    <ItemType>datetime</ItemType>
+    <ItemLength>8</ItemLength>
+    <ItemPrec />
+    <ItemScale />
+    <ItemShow>true</ItemShow>
+    <ItemIsSelect>false</ItemIsSelect>
+    <ItemSelect>between{0}and{1}</ItemSelect>
+    <ItemSelectAndOr>AND</ItemSelectAndOr>
+    <ItemOrderBy>无</ItemOrderBy>
+    <ItemOrderByOrder>1</ItemOrderByOrder>
+    <ItemStyle>text</ItemStyle>
+    <ItemValidatorDataType>日期</ItemValidatorDataType>
+    <ItemIdentity>false</ItemIdentity>
+    <ItemPrimary>false</ItemPrimary>
+    <ItemForeignKey>false</ItemForeignKey>
+    <ItemNull>true</ItemNull>
+    <ItemComment>最后修改时间</ItemComment>
+    <ItemDefault />
+    <TableSelect />
+    <TableSelectComment />
+    <TableSelectValue />
+    <TableSelectText />
+    <TableSelectRemovePrefix />
+    <TableSelectValueRemovePrefix />
+    <TableSelectTextRemovePrefix />
+  </TableItemSaveInfo>
+  <TableItemSaveInfo>
+    <TableName>t_system_admin</TableName>
+    <TableComment>系统人员表</TableComment>
+    <ItemID>21</ItemID>
+    <ItemName>Is_Use</ItemName>
+    <ItemType>int</ItemType>
+    <ItemLength>4</ItemLength>
+    <ItemPrec>10</ItemPrec>
+    <ItemScale>0</ItemScale>
+    <ItemShow>true</ItemShow>
+    <ItemIsSelect>false</ItemIsSelect>
+    <ItemSelect>={0}</ItemSelect>
+    <ItemSelectAndOr>AND</ItemSelectAndOr>
+    <ItemOrderBy>无</ItemOrderBy>
+    <ItemOrderByOrder>1</ItemOrderByOrder>
+    <ItemStyle>select</ItemStyle>
+    <ItemValidatorDataType>整数</ItemValidatorDataType>
+    <ItemIdentity>false</ItemIdentity>
+    <ItemPrimary>false</ItemPrimary>
+    <ItemForeignKey>false</ItemForeignKey>
+    <ItemNull>true</ItemNull>
+    <ItemComment>启用标志：1-启用、2-未启用</ItemComment>
+    <ItemDefault />
+    <TableSelect />
+    <TableSelectComment />
+    <TableSelectValue />
+    <TableSelectText />
+    <TableSelectRemovePrefix />
+    <TableSelectValueRemovePrefix />
+    <TableSelectTextRemovePrefix />
+  </TableItemSaveInfo>
+  <TableItemSaveInfo>
+    <TableName>t_system_admin</TableName>
+    <TableComment>系统人员表</TableComment>
+    <ItemID>22</ItemID>
+    <ItemName>Is_Del</ItemName>
+    <ItemType>int</ItemType>
+    <ItemLength>4</ItemLength>
+    <ItemPrec>10</ItemPrec>
+    <ItemScale>0</ItemScale>
+    <ItemShow>true</ItemShow>
+    <ItemIsSelect>false</ItemIsSelect>
+    <ItemSelect>={0}</ItemSelect>
+    <ItemSelectAndOr>AND</ItemSelectAndOr>
+    <ItemOrderBy>无</ItemOrderBy>
+    <ItemOrderByOrder>1</ItemOrderByOrder>
+    <ItemStyle>select</ItemStyle>
+    <ItemValidatorDataType>整数</ItemValidatorDataType>
+    <ItemIdentity>false</ItemIdentity>
+    <ItemPrimary>false</ItemPrimary>
+    <ItemForeignKey>false</ItemForeignKey>
+    <ItemNull>true</ItemNull>
+    <ItemComment>是否删除：1-未删除、2-已删除</ItemComment>
+    <ItemDefault />
+    <TableSelect />
+    <TableSelectComment />
+    <TableSelectValue />
+    <TableSelectText />
+    <TableSelectRemovePrefix />
+    <TableSelectValueRemovePrefix />
+    <TableSelectTextRemovePrefix />
+  </TableItemSaveInfo>
+</ArrayOfTableItemSaveInfo>

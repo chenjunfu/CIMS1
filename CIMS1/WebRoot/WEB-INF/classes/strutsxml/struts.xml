@@ -1,0 +1,166 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE struts PUBLIC
+ "-//Apache Software Foundation//DTD Struts Configuration 2.0//EN"
+ "http://struts.apache.org/dtds/struts-2.0.dtd">
+
+<struts>
+	<package name="default" extends="base" namespace="/">
+	
+		<action name="Login" class="com.yun.ui.action.Login">
+			<result name="login">/main.jsp</result>
+		</action>
+ 
+			<!-- 文化人才表 -->
+		<action name="Talent" class="com.yun.ui.action.talent.Talent">
+			<result name="TalentDetails">/talent/TalentDetails.jsp</result>
+			<result name="TalentEdit">/talent/TalentEdit.jsp</result>
+
+			<result name="TalentList">/talent/TalentList.jsp</result>
+			<result name="TalentModify">/talent/TalentModify.jsp</result>
+		</action>
+
+				<!-- 民族表 -->
+		<action name="Nation" class="com.yun.ui.action.dictionary.Nation">
+		<result name="NationList">/dictionary/Nation.jsp</result>
+			<result name="NationEdit" >/dictionary/Nation.jsp</result>
+		</action>
+
+				<!-- 城市 -->
+		<action name="Cityinfo" class="com.yun.ui.action.dictionary.Cityinfo">
+		</action>
+
+
+				<!-- 学位表 -->
+		<action name="Degree" class="com.yun.ui.action.dictionary.Degree">
+			<result name="DegreeList">/dictionary/Degree.jsp</result>
+			<result name="DegreeEdit">/dictionary/Degree.jsp</result>
+		</action>
+
+				<!-- 学历表 -->
+		<action name="Education" class="com.yun.ui.action.dictionary.Education">
+				<result name="EducationList">/dictionary/Education.jsp</result>
+				<result name="EducationEdit">/dictionary/Education.jsp</result>
+		</action>
+		
+		
+        <!-- 岗位表 -->
+		<action name="Post" class="com.yun.ui.action.dictionary.Post">
+			<result name="PostList" >/dictionary/Post.jsp</result>
+			<result name="PostEdit" >/dictionary/Post.jsp</result>		
+		</action>
+		<!-- 环境批复 -->
+		<action name="Huanpi" class="com.yun.ui.action.dictionary.Huanpi">
+			<result name="HuanpiList">/dictionary/Huanpi.jsp</result>
+			<result name="HuanpiEdit" >/dictionary/Huanpi.jsp</result>
+		</action>
+		<!-- 土地批复 -->
+		<action name="Tupi" class="com.yun.ui.action.dictionary.Tupi">
+			<result name="TupiList">/dictionary/Tupi.jsp</result>
+			<result name="TupiEdit">/dictionary/Tupi.jsp</result>
+		</action>
+		<!-- 审批,核准,备案 -->
+		<action name="Shb" class="com.yun.ui.action.dictionary.Shb">
+			<result name="ShbList">/dictionary/Shb.jsp</result>
+			<result name="ShbEdit">/dictionary/Shb.jsp</result>
+		</action>
+		<!-- 选址规划 -->
+		<action name="Proadd" class="com.yun.ui.action.dictionary.Proadd">
+			<result name="ProaddList">/dictionary/Proadd.jsp</result>
+			<result name="ProaddEdit">/dictionary/Proadd.jsp</result>
+		</action>
+		<!-- 项目性质 -->
+		<action name="ProjectQuality" class="com.yun.ui.action.dictionary.ProjectQuality">
+			<result name="ProjectQualityList">/dictionary/ProjectQuality.jsp</result>
+			<result name="ProjectQualityEdit">/dictionary/ProjectQuality.jsp</result>
+		</action>
+		
+				<!-- 专业表 -->
+		<action name="Major" class="com.yun.ui.action.dictionary.Major">
+				<result name="MajorList">/dictionary/Major.jsp</result>
+				<result name="MajorEdit" >/dictionary/Major.jsp</result>
+		</action>
+
+				<!-- 人才所属行业 -->
+		<action name="TalentProfession" class="com.yun.ui.action.dictionary.TalentProfession">
+			<result name="TalentProfessionList">/dictionary/TalentProfession.jsp</result>
+			<result name="TalentProfessionEdit" >/dictionary/TalentProfession.jsp</result>
+		</action>
+
+
+
+		<!-- 系统参数 -->
+		<action name="SystemParameter" class="com.yun.ui.action.system.SystemParameter">
+			<result name="SystemParameterEdit">/system/SystemParameterEdit.jsp</result>
+			<result name="SystemParameterDetails">/system/SystemParameterDetails.jsp</result>
+		</action>
+		
+		
+		<!-- 人员表 -->
+		<action name="SystemPersonnel" class="com.yun.ui.action.system.SystemAdmin">
+			<result name="SystemPersonnel">/system/SystemPersonnelEdit.jsp</result>
+			<result name="SystemAdminList">/system/SystemAdminList.jsp</result>
+		</action>
+
+				<!-- 系统用户表 -->
+		<action name="SystemAdmin" class="com.yun.ui.action.system.SystemAdmin">
+			<result name="SystemAdminDetails">/system/SystemAdminDetails.jsp</result>
+			<result name="SystemAdminEdit">/system/SystemAdminEdit.jsp</result>
+			<result name="SystemAdminList">/system/SystemAdminList.jsp</result>
+<!--		<result name="SystemAdminTree">/system/SystemAdminList1.jsp</result>-->
+			<result name="modifypw">/system/AdminPassWord.jsp</result>
+			<result name="SystemAdminsetcompetence">/system/SystemAdminCompetenceEdit.jsp</result>
+		</action>
+
+				<!-- 部门表 -->
+		<action name="SystemSector" class="com.yun.ui.action.system.SystemSector">
+			<result name="SystemSector">/system/SystemSector.jsp</result>
+			<result name="SystemSectorDetails">/system/SystemSectorDetails.jsp</result>
+			<result name="SystemSectorEdit">/system/SystemSectorEdit.jsp</result>
+			<result name="SystemSectorList">/system/SystemSectorList.jsp</result>
+		</action>
+
+				<!-- 角色表 -->
+		<action name="SystemRoles" class="com.yun.ui.action.system.SystemRoles">
+		<result name="SystemRolesDetails">/system/SystemRolesDetails.jsp</result>
+			<result name="SystemRolesEdit">/system/SystemRolesEdit.jsp</result>
+			<result name="SystemRolesList">/system/SystemRolesList.jsp</result>
+		</action>
+
+				<!-- 权限表 -->
+		<action name="SystemCompetence" class="com.yun.ui.action.system.SystemCompetence">
+			<result name="SystemCompetenceDetails">/system/SystemCompetenceDetails.jsp</result>
+			<result name="SystemCompetenceEdit">/system/SystemCompetenceEdit.jsp</result>
+			<result name="SystemCompetenceList">/system/SystemCompetenceList.jsp</result>
+		</action>
+			
+
+			<!-- 郑州市地区表 -->
+		<action name="Regions" class="com.yun.ui.action.dictionary.Regions">
+				<result name="RegionsList">/dictionary/Regions.jsp</result>
+				<result name="RegionsEdit">/dictionary/Regions.jsp</result>
+		</action>
+
+			<!-- 管理人员日志表 -->
+		<action name="SystemAdminLog" class="com.yun.ui.action.system.SystemAdminLog">
+			<result name="SystemAdminLogDetails">/system/SystemAdminLogDetails.jsp</result>
+			<result name="SystemAdminLogEdit">/system/SystemAdminLogEdit.jsp</result>
+			<result name="SystemAdminLogList">/system/SystemAdminLogList.jsp</result>
+		</action>
+				<!-- 单位信息 -->
+		<action name="Unit" class="com.yun.ui.action.baseinfo.Unit">
+			<result name="UnitDetails">/baseinfo/UnitDetails.jsp</result>
+			<result name="UnitEdit">/baseinfo/UnitEdit.jsp</result>
+			<result name="UnitList">/baseinfo/UnitList.jsp</result>
+		</action>
+				
+		<action name="excelenter" class="com.yun.ui.action.ExceloutAction">
+			
+			</action> 
+			 
+            <action name="procexcelenter" class="com.yun.ui.action.procExcel">
+			
+			</action> 
+	</package>
+	
+			
+</struts>

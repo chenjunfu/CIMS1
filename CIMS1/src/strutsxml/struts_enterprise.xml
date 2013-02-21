@@ -1,0 +1,33 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE struts PUBLIC  
+ "-//Apache Software Foundation//DTD Struts Configuration 2.0//EN"  
+ "http://struts.apache.org/dtds/struts-2.0.dtd">
+
+<struts>
+	<package name="enterprise" extends="base" namespace="/enterprise">
+
+		<!-- 企业信息表 -->
+		<action name="Enterprise" class="com.yun.ui.action.enterprise.Enterprise">
+			<result name="EnterpriseDetails">/enterprise/EnterpriseDetails.jsp</result>
+			<result name="EnterpriseEdit">/enterprise/EnterpriseEdit.jsp</result>
+			<result name="EnterpriseList">/enterprise/EnterpriseList.jsp</result>
+			<result name="EnterpriseUpdata">/enterprise/EnterpriseUpdata.jsp</result>
+			<result name="EnterpriseReport">/report/EnterpriseReport.jsp</result>
+		</action>
+
+		<!-- 企业性质表 -->
+		<action name="EnterpristQuality" class="com.yun.ui.action.dictionary.EnterpristQuality">
+			<result name="EnterpristQualityDetails">/enterprise/EnterpristQualityDetails.jsp</result>
+			<result name="EnterpristQualityEdit">/dictionary/EnterpristQuality.jsp</result>
+			<result name="EnterpristQualityList">/dictionary/EnterpristQuality.jsp</result>
+		</action>
+
+		<!-- 行业类别表 -->
+		<action name="Profession" class="com.yun.ui.action.dictionary.Profession">
+				<result name="ProfessionEdit">/dictionary/Profession.jsp</result>
+				<result name="ProfessionList">/dictionary/Profession.jsp</result>
+		</action>
+
+
+	</package>
+</struts>

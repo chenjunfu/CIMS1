@@ -1,0 +1,8 @@
+ table,td,th {border-width: 1px;border-style: solid;border-collapse: collapse;border-color: black;}
+table thead tr
+{
+	font-size: 12px;
+	font-weight: bold;
+	color: black;
+	background-color: white;
+}

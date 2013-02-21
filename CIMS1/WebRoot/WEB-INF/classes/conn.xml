@@ -1,0 +1,59 @@
+<!-- 文件请保存为conn.xml，否则需要修改WebConfig中的路径 -->
+<colorwingcode-configuration>
+	<session-factory>
+		<property name="myeclipse.connection.profile">SQL 2000/2005</property>
+		<!-- 缓存数据的页数，默认是7页 -->
+		<property name="PAGE_CACHE_ALL">7</property>
+		<!-- 网站的标题 -->
+		<property name="WEB_TITLE">文化产业信息管理系统</property>
+		<!-- 页面默认显示的行数 -->
+		<property name="PAGE_SIZE">10</property>
+		<!-- 交替行样式表名1 -->
+		<property name="TRCLASSNAME1">50</property>
+		<!-- 交替行样式表名2 -->
+		<property name="TRCLASSNAME2">50</property>
+		
+		<!-- 查询浏览的数据库 -->
+		<!-- 对Oracle数据库来说，需要修改 localhost:1521:ORCL 为真实的路径和服务器数据库名-->
+		<property name="connection.urlBysqlserverdal">
+			jdbc:sqlserver://localhost:1433;databaseName=whrc;
+		</property>
+		<property name="connection.usernameBysqlserverdal">sa</property>
+		<property name="connection.passwordBysqlserverdal">junfu</property>
+		<!-- 添加更新的数据库 -->
+		<!-- 对Oracle数据库来说，需要修改 localhost:1521:ORCL 为真实的路径和服务器数据库名-->
+		<property name="connection.urlUpdateBysqlserverdal">
+			jdbc:sqlserver://localhost:1433;databaseName=whrc;
+		</property>
+		<property name="connection.usernameUpdateBysqlserverdal">sa</property>
+		<property name="connection.passwordUpdateBysqlserverdal">junfu</property>
+
+		<!-- 是否使用连接池获得数据库链接，true 或 false -->
+		<property name="connection.isConnectionPoolBysqlserverdal">true</property>
+			<!--   c3p0 
+			1.	数据库连接池名，这里用的是c3p0的连接池，配置方法如下，如果用其他的服务器，请更换其他的配置：
+				在\conf\context.xml文件中添加，一定要把JDBC接口的类包复制到Tomcat6的\lib下，比如对于Sql Server数据库来说要把sqljdbc4.jar(2005以上用)或sqljdbc.jar(2000用)这个类包复制到\lib下，根据数据库版本不同用不同的类包
+						<Resource 
+							auth="Container"      
+							description="SQL 2000/2005 database connection pool for whrc"      
+							driverClass="com.microsoft.sqlserver.jdbc.SQLServerDriver"      
+							maxPoolSize="100"      
+							minPoolSize="2"      
+							acquireIncrement="3"      
+							name="jdbc/whrcBysqlserverdal"      
+							user="sa"      
+							password="junfu"      
+							factory="org.apache.naming.factory.BeanFactory"      
+							type="com.mchange.v2.c3p0.ComboPooledDataSource"      
+							jdbcUrl="jdbc:sqlserver://localhost:1433;databaseName=whrc;" />
+			2.在站点的web.xml中添加
+						<resource-ref>
+							<description>SQL 2000/2005 database connection pool for whrc</description>
+							<res-ref-name>jdbc/whrcBysqlserverdal</res-ref-name>
+							<res-type>javax.sql.DataSource</res-type>
+							<res-auth>Container</res-auth>
+						</resource-ref>
+		-->
+		<property name="connection.ConnectionPoolNameBysqlserverdal">java:comp/env/jdbc/whrcBysqlserverdal</property>
+	</session-factory>
+</colorwingcode-configuration>

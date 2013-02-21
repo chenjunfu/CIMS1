@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE struts PUBLIC  
+ "-//Apache Software Foundation//DTD Struts Configuration 2.0//EN"  
+ "http://struts.apache.org/dtds/struts-2.0.dtd">
+
+<struts>
+	<!-- 编码 -->
+	<constant name="struts.i18n.encoding" value="UTF-8" />
+	<!-- 扩展名 -->
+	<constant name="struts.action.extension" value="do,action" />
+	<!-- 浏览器是否缓存静态数据 -->
+	<constant name="struts.serve.static.browserCache" value="false" />
+	<!-- struts配置文件修改后自动加载 -->
+	<constant name="struts.configuration.xml.reload" value="true" />
+	<!-- 开发模式下打印出更详细的错误信息 true false -->
+	<constant name="struts.devMode" value="true" />
+	<!-- 默认主体 -->
+	<constant name="struts.ui.theme" value="simple" />
+	<!-- 是否支持动态调用 -->
+	<constant name="struts.enable.DynamicMethodInvocation" value="true" />
+	<!-- 上传文件的大小 -->
+	<constant name="struts.multipart.maxSize" value="2097152" />
+	<!--是否支持静态方法调用 -->
+	<constant name="struts.ognl.allowStaticMethodAccess" value="true"></constant>
+	<!-- struts2 资源文件 -->
+	<constant name="struts.custom.i18n.resources" value="globalMessages" /> 
+	<!--
+		与spring集成时，指定由spring负责action的创建 <constant name="struts.objectFactory"
+		value="spring" />
+	-->
+	<!-- 内部可直接写action，但一般定义个base，然后放在base包下面，进行目录管理 -->
+	<package name="base" extends="struts-default">
+	</package>
+	<include file="strutsxml/struts.xml"></include> <!-- 网站前台 -->
+	<include file="strutsxml/struts_ajax.xml"></include>
+	<include file="strutsxml/struts_cultureproduce.xml"></include>
+	<include file="strutsxml/struts_enterprise.xml"></include>
+	<include file="strutsxml/struts_chart.xml"></include>
+	<include file="strutsxml/struts_report.xml"></include>
+</struts>

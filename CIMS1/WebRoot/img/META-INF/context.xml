@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Context reloadable="true">  
+  <WatchedResource>WEB-INF/web.xml</WatchedResource>   
+	 <Resource name="jdbc/whrcBysqlserverdal" auth="Container"  
+        type="javax.sql.DataSource"  
+		driverClassName="com.microsoft.sqlserver.jdbc.SQLServerDriver" 
+   		url="jdbc:sqlserver://localhost:1433;databaseName=whrc;" 
+        username="sa"  
+        password="junfu"  
+        maxActive="100"
+		maxIdle="30"
+		maxWait="10000">  
+    </Resource>  
+</Context>  

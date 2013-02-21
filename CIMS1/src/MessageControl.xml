@@ -1,0 +1,264 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<MessageControl>
+  <Message ID="F0000001" Type="MessageId_Common" LogLevel="SYSERR" Action="0" MsgBoxType="0" >
+    <Description LANG="zh-cn" DESC="0001：系统异常。请和管理员联系。" DESC2="" />
+    <Description LANG="ja-JP" DESC="0001：システム異常です。システム管理者に連絡してください。" DESC2="" />
+  </Message>
+  <Message ID="F0000002" Type="MessageId_Common" LogLevel="SYSERR" Action="0" MsgBoxType="0" >
+    <Description LANG="zh-cn" DESC="0002：没有本画面的操作权限。" DESC2="" />
+    <Description LANG="ja-JP" DESC="0002：当画面へのアクセス権限がありません。" DESC2="" />
+  </Message>
+  <Message ID="F0000003" Type="MessageId_Common" LogLevel="SYSERR" Action="0" MsgBoxType="0" >
+    <Description LANG="zh-cn" DESC="0010：ＤＢ连接出错。请和管理员联系。" DESC2="" />
+    <Description LANG="ja-JP" DESC="0010：ＤＢ接続エラーです。システム管理者に連絡してください。" DESC2="" />
+  </Message>
+  <Message ID="F0000004" Type="MessageId_Common" LogLevel="SYSERR" Action="0" MsgBoxType="0" >
+    <Description LANG="zh-cn" DESC="0011：{text}処理が失敗しました。" DESC2="" />
+    <Description LANG="ja-JP" DESC="0011：{text}処理が失敗しました。" DESC2="" />
+  </Message>
+  <Message ID="E0000001" Type="MessageId_Common" LogLevel="SYSERR" Action="0" MsgBoxType="0" >
+    <Description LANG="zh-cn" DESC="{label_name}是必须输入项目，请务必输入。" DESC2="" />
+    <Description LANG="ja-JP" DESC="{label_name}は必須項目であるため、入力してください。" DESC2="" />
+  </Message>
+  <Message ID="E0000002" Type="MessageId_Common" LogLevel="SYSERR" Action="0" MsgBoxType="0" >
+    <Description LANG="zh-cn" DESC="{label_name}是非０的数字项目，请重新输入。" DESC2="" />
+    <Description LANG="ja-JP" DESC="{label_name}は0でないの数字項目であるため、再入力してください。" DESC2="" />
+  </Message>
+  <Message ID="E0000003" Type="MessageId_Common" LogLevel="SYSERR" Action="0" MsgBoxType="0" >
+    <Description LANG="zh-cn" DESC="请在{label_name}项目里输入{N}位以下的文字。" DESC2="" />
+    <Description LANG="ja-JP" DESC="{label_name}に{N}桁以下の文字を入力して下さい。" DESC2="" />
+  </Message>
+  <Message ID="E0000004" Type="MessageId_Common" LogLevel="SYSERR" Action="0" MsgBoxType="0" >
+    <Description LANG="zh-cn" DESC="请在{label_name}项目里输入{param1}～{param2}的整数。" DESC2="" />
+    <Description LANG="ja-JP" DESC="{label_name}の値は{param1}～{param2}の範囲で入力してください。" DESC2="" />
+  </Message>
+  <Message ID="E0000005" Type="MessageId_Common" LogLevel="SYSERR" Action="0" MsgBoxType="0" >
+    <Description LANG="zh-cn" DESC="请在{label_name}项目里输入{param1}～{param2}的实数数。" DESC2="" />
+    <Description LANG="ja-JP" DESC="{label_name}の値は{param1}～{param2}の範囲で入力してください。" DESC2="" />
+  </Message>
+  <Message ID="E0000006" Type="MessageId_Common" LogLevel="SYSERR" Action="0" MsgBoxType="0" >
+    <Description LANG="zh-cn" DESC="请在{label_name}项目里输入日期。" DESC2="" />
+    <Description LANG="ja-JP" DESC="" DESC2="" />
+  </Message>
+  <Message ID="E0000007" Type="MessageId_Common" LogLevel="SYSERR" Action="0" MsgBoxType="0" >
+    <Description LANG="zh-cn" DESC="请在{label_name}项目里输入IP。" DESC2="" />
+    <Description LANG="ja-JP" DESC="" DESC2="" />
+  </Message>
+  <Message ID="E0000008" Type="MessageId_Common" LogLevel="SYSERR" Action="0" MsgBoxType="0" >
+    <Description LANG="zh-cn" DESC="主键数据已存在。" DESC2="" />
+    <Description LANG="ja-JP" DESC="" DESC2="" />
+  </Message>
+  <Message ID="E0000009" Type="MessageId_Common" LogLevel="SYSERR" Action="0" MsgBoxType="0" >
+    <Description LANG="zh-cn" DESC="用户名不能为空。" DESC2="" />
+    <Description LANG="ja-JP" DESC="" DESC2="" />
+  </Message>
+  <Message ID="E0000010" Type="MessageId_Common" LogLevel="SYSERR" Action="0" MsgBoxType="0" >
+    <Description LANG="zh-cn" DESC="密码不能为空。" DESC2="" />
+    <Description LANG="ja-JP" DESC="" DESC2="" />
+  </Message>
+  <Message ID="E0000011" Type="MessageId_Common" LogLevel="SYSERR" Action="0" MsgBoxType="0" >
+    <Description LANG="zh-cn" DESC="该用户已经登录。" DESC2="" />
+    <Description LANG="ja-JP" DESC="" DESC2="" />
+  </Message>
+  <Message ID="E0000012" Type="MessageId_Common" LogLevel="SYSERR" Action="0" MsgBoxType="0" >
+    <Description LANG="zh-cn" DESC="用户名或密码错误。" DESC2="" />
+    <Description LANG="ja-JP" DESC="" DESC2="" />
+  </Message>
+  <Message ID="E0000013" Type="MessageId_Common" LogLevel="INFO" Action="0" MsgBoxType="0" >
+    <Description LANG="zh-cn" DESC="密码两次输入不同" DESC2="" />
+    <Description LANG="ja-JP" DESC="" DESC2="" />
+  </Message>
+  <Message ID="E0000014" Type="MessageId_Common" LogLevel="INFO" Action="0" MsgBoxType="0" >
+    <Description LANG="zh-cn" DESC="您的{label_name}写错了，请修改" DESC2="" />
+    <Description LANG="ja-JP" DESC="" DESC2="" />
+  </Message>
+<!--自定义为编号重复  -->
+<Message   ID="E0000015" Type="MessageId_Common" LogLevel="SYSERR" Action="0" MsgBoxType="0">
+	<Description LANG="zh-cn" DESC="编号:{param1} 已经存在，请更换" DESC2=""></Description>
+	<Description LANG="ja-JP" DESC="" DESC2=""></Description>
+</Message>
+
+  <Message ID="I0000001" Type="MessageId_Common" LogLevel="INFO" Action="0" MsgBoxType="0" >
+    <Description LANG="zh-cn" DESC="{text}中不存在所检索的数据。" DESC2="" />
+    <Description LANG="ja-JP" DESC="{text}から検索されたデータが存在しません。" DESC2="" />
+  </Message>
+  <Message ID="I0000002" Type="MessageId_Common" LogLevel="INFO" Action="0" MsgBoxType="0" >
+    <Description LANG="zh-cn" DESC="添加成功" DESC2="" />
+    <Description LANG="ja-JP" DESC="" DESC2="" />
+  </Message>
+  <Message ID="I0000003" Type="MessageId_Common" LogLevel="INFO" Action="0" MsgBoxType="0" >
+    <Description LANG="zh-cn" DESC="数据更新成功" DESC2="" />
+    <Description LANG="ja-JP" DESC="" DESC2="" />
+  </Message>
+  <Message ID="I0000004" Type="MessageId_Common" LogLevel="INFO" Action="0" MsgBoxType="0" >
+    <Description LANG="zh-cn" DESC="没有更新任何数据" DESC2="" />
+    <Description LANG="ja-JP" DESC="" DESC2="" />
+  </Message>
+  <Message ID="I0000005" Type="MessageId_Common" LogLevel="INFO" Action="0" MsgBoxType="0" >
+    <Description LANG="zh-cn" DESC="您访问的数据不存在，请确定后在访问。" DESC2="" />
+    <Description LANG="ja-JP" DESC="" DESC2="" />
+  </Message>
+  <Message ID="I0000006" Type="MessageId_Common" LogLevel="INFO" Action="0" MsgBoxType="0" >
+    <Description LANG="zh-cn" DESC="总共有{n}个错误" DESC2="" />
+    <Description LANG="ja-JP" DESC="" DESC2="" />
+  </Message>
+  <Message ID="I0000007" Type="MessageId_Common" LogLevel="INFO" Action="0" MsgBoxType="0" >
+    <Description LANG="zh-cn" DESC="删除成功" DESC2="" />
+    <Description LANG="ja-JP" DESC="" DESC2="" />
+  </Message>
+  <Message ID="I0000008" Type="MessageId_Common" LogLevel="INFO" Action="0" MsgBoxType="0" >
+    <Description LANG="zh-cn" DESC="删除失败" DESC2="" />
+    <Description LANG="ja-JP" DESC="" DESC2="" />
+  </Message>
+  <Message ID="I0000009" Type="MessageId_Common" LogLevel="INFO" Action="0" MsgBoxType="0" >
+    <Description LANG="zh-cn" DESC="添加失败" DESC2="" />
+    <Description LANG="ja-JP" DESC="" DESC2="" />
+  </Message>
+  <Message ID="I0000010" Type="MessageId_Common" LogLevel="INFO" Action="0" MsgBoxType="0" >
+    <Description LANG="zh-cn" DESC="上传图片不能为空" DESC2="" />
+    <Description LANG="ja-JP" DESC="" DESC2="" />
+  </Message>
+  <Message ID="I0000011" Type="MessageId_Common" LogLevel="INFO" Action="0" MsgBoxType="0" >
+    <Description LANG="zh-cn" DESC="数据更新失败" DESC2="" />
+    <Description LANG="ja-JP" DESC="" DESC2="" />
+  </Message>
+  <Message ID="I0000012" Type="MessageId_Common" LogLevel="INFO" Action="0" MsgBoxType="0" >
+    <Description LANG="zh-cn" DESC="无效的图形格式" DESC2="" />
+    <Description LANG="ja-JP" DESC="" DESC2="" />
+  </Message>
+  <Message ID="I0000013" Type="MessageId_Common" LogLevel="INFO" Action="0" MsgBoxType="0" >
+    <Description LANG="zh-cn" DESC="文件太大，请选择小于{maxFSize}K的文件" DESC2="" />
+    <Description LANG="ja-JP" DESC="" DESC2="" />
+  </Message>
+  <Message ID="I0000014" Type="MessageId_Common" LogLevel="INFO" Action="0" MsgBoxType="0" >
+    <Description LANG="zh-cn" DESC="停用成功" DESC2="" />
+    <Description LANG="ja-JP" DESC="" DESC2="" />
+  </Message>
+  <Message ID="I0000015" Type="MessageId_Common" LogLevel="INFO" Action="0" MsgBoxType="0" >
+    <Description LANG="zh-cn" DESC="启用成功" DESC2="" />
+    <Description LANG="ja-JP" DESC="" DESC2="" />
+  </Message>
+
+  <Message ID="W0000001" Type="MessageId_Common" LogLevel="WARN" Action="0" MsgBoxType="0" >
+    <Description LANG="zh-cn" DESC="入力データを破棄して、前画面へ戻ります、よろしいですか？" DESC2="" />
+    <Description LANG="ja-JP" DESC="入力データを破棄して、前画面へ戻ります、よろしいですか？" DESC2="" />
+  </Message>
+  <Message ID="W0000002" Type="MessageId_Common" LogLevel="WARN" Action="0" MsgBoxType="0" >
+    <Description LANG="zh-cn" DESC="変更データを廃棄して、前画面へ戻ります、よろしいですか？" DESC2="" />
+    <Description LANG="ja-JP" DESC="変更データを廃棄して、前画面へ戻ります、よろしいですか？" DESC2="" />
+  </Message>
+
+  <Message ID="ECOM0001" Type="MessageId_Common" LogLevel="SYSERR" Action="0" MsgBoxType="0" >
+    <Description LANG="zh-cn" DESC="ECOM0001:{param1}取得処理でエラーが発生しました。" DESC2="" />
+    <Description LANG="ja-JP" DESC="ECOM0001:{param1}取得処理でエラーが発生しました。" DESC2="" />
+  </Message>
+  <Message ID="ECOM0006" Type="MessageId_Common" LogLevel="SYSERR" Action="0" MsgBoxType="0" >
+    <Description LANG="zh-cn" DESC="ECOM0006:{sp}のストアドプロシジャの実行に失敗しました。戻り値:{ret}" DESC2="" />
+    <Description LANG="ja-JP" DESC="ECOM0006:{sp}のストアドプロシジャの実行に失敗しました。戻り値:{ret}" DESC2="" />
+  </Message>
+  <Message ID="ECOM0012" Type="MessageId_Common" LogLevel="SYSERR" Action="0" MsgBoxType="0" >
+    <Description LANG="zh-cn" DESC="ECOM0012: ログイン処理に失敗しました。" DESC2="" />
+    <Description LANG="ja-JP" DESC="ECOM0012: ログイン処理に失敗しました。" DESC2="" />
+  </Message>
+  <Message ID="ECOM5000" Type="MessageId_Common" LogLevel="SYSERR" Action="0" MsgBoxType="0" >
+    <Description LANG="zh-cn" DESC="ECOM5000: {text}処理が失敗しました。" DESC2="" />
+    <Description LANG="ja-JP" DESC="ECOM5000: {text}処理が失敗しました。" DESC2="" />
+  </Message>
+  <Message ID="ECOM5001" Type="MessageId_Common" LogLevel="SYSERR" Action="0" MsgBoxType="0" >
+    <Description LANG="zh-cn" DESC="ECOM5001: 遷移元ページは{text}からの派生クラスである必要があります。" DESC2="" />
+    <Description LANG="ja-JP" DESC="ECOM5001: 遷移元ページは{0}からの派生クラスである必要があります。" DESC2="" />
+  </Message>
+  <Message ID="ECOM5002" Type="MessageId_Common" LogLevel="SYSERR" Action="0" MsgBoxType="0" >
+    <Description LANG="zh-cn" DESC="ECOM5002: 該当データが存在しません。" DESC2="" />
+    <Description LANG="ja-JP" DESC="ECOM5002: 該当データが存在しません。" DESC2="" />
+  </Message>
+  <Message ID="ECOM5011" Type="MessageId_Common" LogLevel="SYSERR" Action="0" MsgBoxType="0" >
+    <Description LANG="zh-cn" DESC="ECOM5011:システムエラーが発生しました。" DESC2="" />
+    <Description LANG="ja-JP" DESC="ECOM5011:システムエラーが発生しました。" DESC2="" />
+  </Message>
+  <Message ID="ICOM0001" Type="MessageId_Common" LogLevel="INFO" Action="0" MsgBoxType="0" >
+    <Description LANG="zh-cn" DESC="ICOM0001: ログインID :{LoginId}" DESC2="" />
+    <Description LANG="ja-JP" DESC="ICOM0001: ログインID :{LoginId}" DESC2="" />
+  </Message>
+  <Message ID="ICOM0011" Type="MessageId_Common" LogLevel="INFO" Action="0" MsgBoxType="0" >
+    <Description LANG="zh-cn" DESC="ICOM0011: ログイン処理に成功しました。" DESC2="" />
+    <Description LANG="ja-JP" DESC="ICOM0011: ログイン処理に成功しました。" DESC2="" />
+  </Message>
+  <Message ID="ICOM9001" Type="MessageId_Common" LogLevel="INFO" Action="0" MsgBoxType="0" >
+    <Description LANG="zh-cn" DESC="ICOM9001: {naiyou}" DESC2="" />
+    <Description LANG="ja-JP" DESC="ICOM9001: {naiyou}" DESC2="" />
+  </Message>
+  <Message ID="WCOM0002" Type="MessageId_Common" LogLevel="WARN" Action="0" MsgBoxType="0" >
+    <Description LANG="zh-cn" DESC="WCOM0002:{label_name}を入力してください。" DESC2="" />
+    <Description LANG="ja-JP" DESC="WCOM0002:{label_name}を入力してください。" DESC2="" />
+  </Message>
+  <Message ID="WCOM0003" Type="MessageId_Common" LogLevel="WARN" Action="0" MsgBoxType="0" >
+    <Description LANG="zh-cn" DESC="WCOM0003:{label_name}はYYYYMM形式で入力してください。" DESC2="" />
+    <Description LANG="ja-JP" DESC="WCOM0003:{label_name}はYYYYMM形式で入力してください。" DESC2="" />
+  </Message>
+  <Message ID="WCOM0004" Type="MessageId_Common" LogLevel="WARN" Action="0" MsgBoxType="0" >
+    <Description LANG="zh-cn" DESC="WCOM0004:{label_name}はYYYYMMDD形式で入力してください。" DESC2="" />
+    <Description LANG="ja-JP" DESC="WCOM0004:{label_name}はYYYYMMDD形式で入力してください。" DESC2="" />
+  </Message>
+  <Message ID="WCOM0006" Type="MessageId_Common" LogLevel="WARN" Action="0" MsgBoxType="0" >
+    <Description LANG="zh-cn" DESC="WCOM0006:{label_name}の値は{param1}～{param2}の範囲で入力してください。" DESC2="" />
+    <Description LANG="ja-JP" DESC="WCOM0006:{label_name}の値は{param1}～{param2}の範囲で入力してください。" DESC2="" />
+  </Message>
+  <Message ID="WCOM0007" Type="MessageId_Common" LogLevel="WARN" Action="0" MsgBoxType="0" >
+    <Description LANG="zh-cn" DESC="WCOM0007:{label_name}は小数点以下{n}桁以内で入力してください。" DESC2="" />
+    <Description LANG="ja-JP" DESC="WCOM0007:{label_name}は小数点以下{n}桁以内で入力してください。" DESC2="" />
+  </Message>
+  <Message ID="WCOM0008" Type="MessageId_Common" LogLevel="WARN" Action="0" MsgBoxType="0" >
+    <Description LANG="zh-cn" DESC="WCOM0008:{param1}に禁則文字（{param2}）は設定できません。" DESC2="" />
+    <Description LANG="ja-JP" DESC="WCOM0008:{param1}に禁則文字（{param2}）は設定できません。" DESC2="" />
+  </Message>
+  <Message ID="WCOM0009" Type="MessageId_Common" LogLevel="WARN" Action="0" MsgBoxType="0" >
+    <Description LANG="zh-cn" DESC="WCOM0009:{param1}は半角{size}字以内で入力してください。" DESC2="" />
+    <Description LANG="ja-JP" DESC="WCOM0009:{param1}は半角{size}字以内で入力してください。" DESC2="" />
+  </Message>
+  <Message ID="WCOM0010" Type="MessageId_Common" LogLevel="WARN" Action="0" MsgBoxType="0" >
+    <Description LANG="zh-cn" DESC="WCOM0010:{param1}は全角{size}字以内で入力してください。" DESC2="" />
+    <Description LANG="ja-JP" DESC="WCOM0010:{param1}は全角{size}字以内で入力してください。" DESC2="" />
+  </Message>
+  <Message ID="WSMS5002" Type="MessageId_Operation" LogLevel="WARN" Action="0" MsgBoxType="0" >
+    <Description LANG="zh-cn" DESC="WSMS5002: パスワードの有効期限切れです。パスワードを変更してください。" DESC2="" />
+    <Description LANG="ja-JP" DESC="WSMS5002: パスワードの有効期限切れです。パスワードを変更してください。" DESC2="" />
+  </Message>
+  <Message ID="WSMS0003" Type="MessageId_Operation" LogLevel="WARN" Action="0" MsgBoxType="0" >
+    <Description LANG="zh-cn" DESC="WSMS0003:顧客情報が存在しません。（店番：{branch}、顧客番号：{customer}）" DESC2="" />
+    <Description LANG="ja-JP" DESC="WSMS0003:顧客情報が存在しません。（店番：{branch}、顧客番号：{customer}）" DESC2="" />
+  </Message>
+  <Message ID="ISMS0004" Type="MessageId_Operation" LogLevel="INFO" Action="0" MsgBoxType="0" >
+    <Description LANG="zh-cn" DESC="ISMS0004:ログイン処理に成功しました。" DESC2="" />
+    <Description LANG="ja-JP" DESC="ISMS0004:ログイン処理に成功しました。" DESC2="" />
+  </Message>
+  <Message ID="ISMS0001" Type="MessageId_Operation" LogLevel="INFO" Action="0" MsgBoxType="0" >
+    <Description LANG="zh-cn" DESC="ISMS0001:実態値が修正されました。定量評価格付及び形式債務者区分の再取得を行ってください。" DESC2="" />
+    <Description LANG="ja-JP" DESC="ISMS0001:実態値が修正されました。定量評価格付及び形式債務者区分の再取得を行ってください。" DESC2="" />
+  </Message>
+  <Message ID="ESMS5010" Type="MessageId_Operation" LogLevel="BIZERR" Action="0" MsgBoxType="0" >
+    <Description LANG="zh-cn" DESC="ESMS5010: ログインID、パスワードのいずれかが不正です。" DESC2="" />
+    <Description LANG="ja-JP" DESC="ESMS5010: ログインID、パスワードのいずれかが不正です。" DESC2="" />
+  </Message>
+  <Message ID="ESMS5009" Type="MessageId_Operation" LogLevel="BIZERR" Action="0" MsgBoxType="0" >
+    <Description LANG="zh-cn" DESC="ESMS5009: ログインアカウントがロックされています。" DESC2="" />
+    <Description LANG="ja-JP" DESC="ESMS5009: ログインアカウントがロックされています。" DESC2="" />
+  </Message>
+  <Message ID="ESMS5008" Type="MessageId_Operation" LogLevel="BIZERR" Action="0" MsgBoxType="0" >
+    <Description LANG="zh-cn" DESC="ESMS5008: ログインの失敗が一定回数を越えました。ログインアカウントをロックします。" DESC2="" />
+    <Description LANG="ja-JP" DESC="ESMS5008: ログインの失敗が一定回数を越えました。ログインアカウントをロックします。" DESC2="" />
+  </Message>
+  <Message ID="ESMS0005" Type="MessageId_Operation" LogLevel="BIZERR" Action="0" MsgBoxType="0" >
+    <Description LANG="zh-cn" DESC="ESMS0005:システムエラーが発生しました。" DESC2="" />
+    <Description LANG="ja-JP" DESC="ESMS0005:システムエラーが発生しました。" DESC2="" />
+  </Message>
+  <Message ID="ESMS0003" Type="MessageId_Operation" LogLevel="BIZERR" Action="0" MsgBoxType="0" >
+    <Description LANG="zh-cn" DESC="ESMS0003:ログイン処理に失敗しました。" DESC2="" />
+    <Description LANG="ja-JP" DESC="ESMS0003:ログイン処理に失敗しました。" DESC2="" />
+  </Message>
+  <Message ID="ESMS0002" Type="MessageId_Operation" LogLevel="BIZERR" Action="0" MsgBoxType="0" >
+    <Description LANG="zh-cn" DESC="ESMS0002:要格付先リストへの追加に失敗しました。(財務格付取得失敗)" DESC2="" />
+    <Description LANG="ja-JP" DESC="ESMS0002:要格付先リストへの追加に失敗しました。(財務格付取得失敗)" DESC2="" />
+  </Message>
+</MessageControl>
+

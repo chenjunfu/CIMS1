@@ -1,0 +1,63 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE struts PUBLIC  
+ "-//Apache Software Foundation//DTD Struts Configuration 2.0//EN"  
+ "http://struts.apache.org/dtds/struts-2.0.dtd">
+
+<struts>
+	<package name="default_ajax" extends="base" namespace="/ajax">
+
+		<!-- 项目图片表 -->
+		<action name="Projectpic" class="com.yun.ui.action.ajax.Projectpic">
+			<result name="ProjectpicDetails">/ajax/ProjectpicDetails.jsp</result>
+			<result name="ProjectpicEdit">/ajax/ProjectpicEdit.jsp</result>
+			<result name="ProjectpicList">/ajax/ProjectpicList.jsp</result>
+		</action>
+
+		<!-- 部门表 -->
+		<action name="SystemSector" class="com.yun.ui.action.ajax.SystemSector">
+		</action>
+
+		<!-- 系统人员表 -->
+		<action name="SystemAdmin" class="com.yun.ui.action.ajax.SystemAdmin">
+		</action>
+		<!-- 系统字典表 -->
+		<action name="Dictionary" class="com.yun.ui.action.ajax.Dictionary">
+		</action>
+		<!--系统用户修改     只 为修改用户的                 启用，删除-->
+		<action name="Systemadminforadmin" class="com.yun.ui.action.ajax.SystemAdminForAdmin">
+		</action>
+		<!--验证企业编号信息		-->
+		<action name="VEnterpriseNo" class="com.yun.ui.action.ajax.ValidateEnterprise" method="ValidateNo">
+		</action>
+		<!--验证企业名字信息		-->
+		<action name="VEnterpriseName"  class="com.yun.ui.action.ajax.ValidateEnterprise" method="ValidateName">
+		</action>
+		<!--验证企业工商号信息		-->
+		<action name="VEnterpriseEnterpriseCode" class="com.yun.ui.action.ajax.ValidateEnterprise" method="ValidateEnterpriseCode">
+		</action>
+		<!--验证企业专利号信息		-->
+		<action name="VEnterprisePartentCode" class="com.yun.ui.action.ajax.ValidateEnterprise" method="ValidatePartentCode">
+		</action>
+		<!--验证项目编号信息		-->
+		<action name="VProjectNo" class="com.yun.ui.action.ajax.ValidateIndustryProject" method="ValidateNo">
+		</action>
+		<!--验证项目名字信息		-->
+		<action name="VProjectName"  class="com.yun.ui.action.ajax.ValidateIndustryProject" method="ValidateName">
+		</action>
+		<!--验证人才编号信息		-->
+		<action name="VTalentNo" class="com.yun.ui.action.ajax.ValidateTalent" method="ValidateNo">
+		</action>
+		<!--验证人才名字信息		-->
+		<action name="VTalentName"  class="com.yun.ui.action.ajax.ValidateTalent" method="ValidateName">
+		</action>
+		<!--验证员工编号信息		-->
+		<action name="VadminID"  class="com.yun.ui.action.ajax.ValidateAdmin" method="ValidateAdminno">
+		</action>
+		<!--验证员工工号信息		-->
+		<action name="Vadminworkno"  class="com.yun.ui.action.ajax.ValidateAdmin" method="ValidateAdminWorkno">
+		</action>
+		<!--验证部门编号信息		-->
+		<action name="Vsectorid"  class="com.yun.ui.action.ajax.ValidateSector" method="ValidateSectorId">
+		</action>
+	</package>
+</struts>

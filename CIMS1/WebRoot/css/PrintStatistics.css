@@ -1,0 +1,92 @@
+#no{
+widht:3%;
+}
+#proname{
+width: 8%;
+}
+#Cunit{
+width: 8%;
+}
+#quality{
+width: 3%;
+
+}
+#address{width: 4%}
+#cycle{  width:6%}
+#content{ width: 12%}
+#total{width: 4%}
+#found{width: 10%;}
+#completed{width: 4%}
+#plan{width:4%}
+#case{width:12%}
+#progress{width:6%}
+#contact{widht:4%}
+#phone{width:8% }
+#comment{width:4%}
+
+
+#tbPrint
+{
+
+	border-right-width: 1px;
+	border-bottom-width: 1px;
+	border-left-width: 1px;
+	border-right-style: solid;
+	border-bottom-style: solid;
+	border-left-style: solid;
+	border-right-color: black;
+	border-bottom-color: black;
+	border-left-color: black;
+	width:100%;
+	border-top-width: 0px;
+	border-top-style: none;
+	letter-spacing: 0em;
+	table-layout:auto;
+	word-break:break-all;
+	word-wrap:normal;
+
+}
+
+#tbPrint thead tr
+{
+	border-left-width: 1px;
+	border-left-style: solid;
+	border-left-color: black;
+	font-size: 12px;
+	font-weight: bold;
+	color: black;
+	background-color: white;
+}
+#tbPrint thead tr td
+{
+	border-top-width: 1px;
+	border-right-width: 1px;
+	border-top-style: solid;
+	border-right-style: solid;
+	border-top-color: black;
+	border-right-color: black;
+	letter-spacing: 0px;
+	text-align: center;
+}
+
+#tbPrint tr
+{
+	border-bottom-width: 1px;
+	border-left-width: 1px;
+	border-bottom-style: solid;
+	border-left-style: solid;
+	border-bottom-color: black;
+	border-left-color: black;
+	background-color: white;
+}
+#tbPrint tr td {
+	border-top-width: 1px;
+	border-right-width: 1px;
+	border-top-style: solid;
+	border-right-style: solid;
+	border-top-color: black;
+	border-right-color: black;
+	text-align: center;
+	font-size: 12px;
+	height: 100%;
+}

@@ -1,0 +1,98 @@
+@charset "utf-8";
+/* CSS Document */
+body {
+	margin-left: 0px;
+	margin-top: 0px;
+	margin-right: 0px;
+	margin-bottom: 0px;
+	font-size: 12px;
+	line-height:22px;
+	color: #000;
+	height:100%;
+}
+
+a:link {
+	color: #000 ; 
+	text-decoration: none;
+}
+a:visited {
+	color: #000;
+	text-decoration: none;
+}
+a:hover {
+	color: #c75f3e;
+	text-decoration: underline;
+}
+a:active
+{
+	color: #660000;
+	text-decoration: underline;
+}
+#left{
+      float:left;
+	  }
+#right{
+     float:right;
+	 }	   
+.leftdd{
+    width:216px;
+	background-color:#e0eef1;
+	border:2px #33f5ff groove;
+}
+.rightdd{
+    width:auto;
+	background-color:#e0eef1;
+	border:2px #33f5ff groove;
+}
+.td li{
+	  list-style-image:url(../images/bdian.gif);
+	  background-image:url(../images/xxian.gif);
+	  background-repeat:repeat-x;
+	  background-position:bottom;
+	  }
+.bott{
+     height:24px;
+	 background:url(../images/h_indes_06.gif);
+	 text-align:right;
+	 color:#FFFFFF;
+     width:100%;
+     position:fixed;
+	 bottom:0; 
+}
+/*-------------table2-------------*/
+.table2 {
+	margin-top: 8px;
+	margin-bottom: 8px;
+	padding: 0px;
+	margin-right: 0px;
+	margin-left: 0px;
+}
+
+.table2 ul {
+	float: left;
+	width: 149px;
+	list-style-type: none;
+	margin-right: 3px;
+	margin-left: 3px;
+	padding: 0px;
+	margin-top: 0px;
+	margin-bottom: 0px;
+}
+
+
+.table2 li {
+	list-style-type: none;
+	font-size: 9pt;
+}
+.table2 li img {
+	width:138px;
+	height:93px;
+	border: 1px solid #d3d3d3;
+	padding: 1px;
+}
+#listMenu{
+	font-size:16px;
+	font-weight:bold;
+	float:left;
+	
+}
